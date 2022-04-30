@@ -1,17 +1,14 @@
 <template>
-   
-   <router-link to="/">Home</router-link>
-     <router-view></router-view>
+  <!-- <router-link to="/">
+    <h1 class="py-3">Home</h1>
+  </router-link> -->
+  <router-view></router-view>
 </template>
 
 <script>
-
 export default {
-  name: 'App',
-
-  
-  
-}
+  name: "App",
+};
 </script>
 
 <style>
